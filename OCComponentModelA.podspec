@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OCComponentModelA'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OCComponentModelA.'
+  s.summary          = 'OCComponentModelA是用来测试组件化的一个组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'OCComponentModelA/Classes/**/*'
   
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  
+  s.requires_arc = true
   # s.resource_bundles = {
   #   'OCComponentModelA' => ['OCComponentModelA/Assets/*.png']
   # }

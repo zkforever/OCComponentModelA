@@ -1,0 +1,16 @@
+PODS:
+  - OCComponentModelA (0.1.0)
+
+DEPENDENCIES:
+  - OCComponentModelA (from `../`)
+
+EXTERNAL SOURCES:
+  OCComponentModelA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCComponentModelA: 76e441b3d6a2a4eaa6e67951914383f1e2796881
+
+PODFILE CHECKSUM: 6355c0d2ed77b0dd12b8a17b15ddd714ba05bec5
+
+COCOAPODS: 1.8.4
