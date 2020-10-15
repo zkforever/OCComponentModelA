@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OCComponentModelA_Tests' do
+  pod 'OCComponentModelA', :path => '../'
+  
+  
+end
