@@ -12,6 +12,8 @@
 		5072F7E7EA298736B017B40089F2ED24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		736DE48525384388009A1F40 /* ModelA.h in Headers */ = {isa = PBXBuildFile; fileRef = 736DE48325384388009A1F40 /* ModelA.h */; };
 		736DE48625384388009A1F40 /* ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = 736DE48425384388009A1F40 /* ModelA.m */; };
+		736DE4AE253853DB009A1F40 /* ModelPart1.h in Headers */ = {isa = PBXBuildFile; fileRef = 736DE4AC253853DB009A1F40 /* ModelPart1.h */; };
+		736DE4AF253853DB009A1F40 /* ModelPart1.m in Sources */ = {isa = PBXBuildFile; fileRef = 736DE4AD253853DB009A1F40 /* ModelPart1.m */; };
 		DC5B7B0052535D8649173E83D072A0AC /* OCComponentModelA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CCDB46229DEB67FF6ECC532F4B3FCE0 /* OCComponentModelA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5904EBEEA9BBD7809A8C6566557890B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F6F0AC4CBC335CFC4E94B70EF9E8C755 /* OCComponentModelA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0437ABD65C2B2E36EA20536D929645 /* OCComponentModelA-dummy.m */; };
@@ -41,6 +43,8 @@
 		6C6CA14BF91BBFB5326AF2841C44D575 /* Pods-OCComponentModelA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCComponentModelA_Tests.modulemap"; sourceTree = "<group>"; };
 		736DE48325384388009A1F40 /* ModelA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModelA.h; path = OCComponentModelA/Classes/ModelA.h; sourceTree = "<group>"; };
 		736DE48425384388009A1F40 /* ModelA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ModelA.m; path = OCComponentModelA/Classes/ModelA.m; sourceTree = "<group>"; };
+		736DE4AC253853DB009A1F40 /* ModelPart1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModelPart1.h; path = OCComponentModelA/Classes/ModelPart1.h; sourceTree = "<group>"; };
+		736DE4AD253853DB009A1F40 /* ModelPart1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ModelPart1.m; path = OCComponentModelA/Classes/ModelPart1.m; sourceTree = "<group>"; };
 		83A422F8B7672B3AA56FCEAE9C41F532 /* OCComponentModelA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCComponentModelA.modulemap; sourceTree = "<group>"; };
 		96219F46798E984B0C52B9FB409C12BF /* OCComponentModelA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCComponentModelA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -86,6 +90,8 @@
 		18F8468166A0135BDC7F7B385FAA2358 /* OCComponentModelA */ = {
 			isa = PBXGroup;
 			children = (
+				736DE4AC253853DB009A1F40 /* ModelPart1.h */,
+				736DE4AD253853DB009A1F40 /* ModelPart1.m */,
 				736DE48325384388009A1F40 /* ModelA.h */,
 				736DE48425384388009A1F40 /* ModelA.m */,
 				1DE6970114EA5701C2941062DB10778A /* Pod */,
@@ -194,6 +200,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736DE4AE253853DB009A1F40 /* ModelPart1.h in Headers */,
 				736DE48525384388009A1F40 /* ModelA.h in Headers */,
 				DC5B7B0052535D8649173E83D072A0AC /* OCComponentModelA-umbrella.h in Headers */,
 			);
@@ -298,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				736DE48625384388009A1F40 /* ModelA.m in Sources */,
+				736DE4AF253853DB009A1F40 /* ModelPart1.m in Sources */,
 				F6F0AC4CBC335CFC4E94B70EF9E8C755 /* OCComponentModelA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
