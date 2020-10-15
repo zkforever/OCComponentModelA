@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCComponentModelA'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'OCComponentModelA是用来测试组件化的一个组件'
 
 # This description is used to generate tags and improve search results.
